@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jeff Giganto | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar-nav">
+    <ul>
+      <li><a href="../index.html#home" title="Home">Home</a></li>
+      <li><a href="../index.html#projects" title="Projects">Projects</a></li>
+      <li><a href="../index.html#skills" title="Skills">Skills</a></li>
+      <li><a href="../index.html#career" title="Career">Career</a></li>
+      <li><a href="../index.html#personal" title="About">About</a></li>
+      <li><a href="../index.html#contact" title="Contact">Contact</a></li>
+      <li><a href="#projects" title="Portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- Top Navbar (for mobile) -->
+  <nav style="display:none" id="topNav">
+    <h2 class="logo">Jeff Portfolio</h2>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <img src="Jeff.jpg" alt="Profile Photo" class="profile-img">
+      </div>
+      <div class="hero-right">
+        <h1>Hi, I'm <span>Jeff Sayson Giganto</span></h1>
+        <p class="lead">BSIT 3-SOUTH</p>
+        <div class="cta-row">
+          <a class="button primary" href="#projects">View My Work</a>
+          <a class="button" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me (Directly after Home) -->
+  <section id="personal" class="section">
+    <div class="section-inner container">
+      <h2>About Me</h2>
+      <div class="info-card">
+        <p><strong>Name:</strong> Jeff Sayson Giganto</p>
+        <p><strong>Course:</strong> Information Technology</p>
+        <p><strong>Location:</strong> Philippines</p>
+        <p><strong>Languages:</strong> English, Filipino</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects (Now after About Me) -->
+  <section id="projects" class="section">
+    <div class="section-inner container">
+      <h2>Featured Projects</h2>
+      <div class="projects-container">
+        <a class="project-link" href="#projects">
+          <div class="project-card">
+            <h3>AI Chat Application</h3>
+            <p>Real-time chat platform powered by AI with natural language processing capabilities.</p>
+            <span class="project-tech">Node.js • React • Python</span>
+          </div>
+        </a>
+        <a class="project-link" href="#projects">
+          <div class="project-card">
+            <h3>Cloud Storage API</h3>
+            <p>Secure file management system with cloud storage integration and REST APIs.</p>
+            <span class="project-tech">Node.js • MongoDB • AWS</span>
+          </div>
+        </a>
+        <a class="project-link" href="#projects">
+          <div class="project-card">
+            <h3>Data Analytics Dashboard</h3>
+            <p>Interactive visualization platform for real-time data analysis and reporting.</p>
+            <span class="project-tech">React • D3.js • PostgreSQL</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div style="margin-top:40px;text-align:center;">
+      <h3>Testimonials</h3>
+      <div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:18px;">
+        <div class="info-card" style="max-width:320px;">
+          <p>"Jeff work is creative and reliable. Highly recommended!"</p>
+          <p style="font-size:13px;color:#b6ffb6;">— Client A</p>
+        </div>
+        <div class="info-card" style="max-width:320px;">
+          <p>"Professional and detail-oriented. Great experience!"</p>
+          <p style="font-size:13px;color:#b6ffb6;">— Client B</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills (Second Section after Home) -->
+  <section id="skills" class="section">
+    <div class="section-inner container">
+      <h2>Technical Skills</h2>
+      <div class="skills-container">
+      <span class="skill">React</span>
+      <span class="skill">Node.js</span>
+      <span class="skill">Python</span>
+      <span class="skill">Figma</span>
+      <span class="skill">UI/UX Design</span>
+      <span class="skill">APIs</span>
+      <span class="skill">TypeScript</span>
+      <span class="skill">Sass</span>
+      </div>
+    </div>
+    <div style="margin-top:30px;">
+      <h3>Tools & Technologies</h3>
+      <div style="display:flex;gap:18px;flex-wrap:wrap;">
+        <span class="skill">VS Code</span>
+        <span class="skill">Git</span>
+        <span class="skill">Webpack</span>
+        <span class="skill">Netlify</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Objective (Third Section after Home) -->
+  <section id="career" class="section">
+    <div class="section-inner container">
+      <h2>Career Vision</h2>
+      <div class="info-card">
+        <p>
+          My goal is to innovate in web development, blending design and technology for impactful digital experiences.
+          <br>
+          <span style="color:var(--accent);font-size:15px;">Always learning, always growing.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact (Last Section after Home) -->
+  <section id="contact" class="section">
+    <div class="section-inner container">
+      <h2>Get in Touch</h2>
+      <div class="info-card">
+        <p><strong>Email:</strong> jeff@email.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/jeff" target="_blank" style="color:var(--accent);text-decoration:underline;">github.com/jeff</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jeff" target="_blank" style="color:var(--accent);text-decoration:underline;">linkedin.com/in/jeff</a></p>
+      </div>
+      <div style="margin-top:30px;text-align:center;">
+        <h3>Let's Connect!</h3>
+        <p>Feel free to reach out for collaborations or freelance work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Isabel Verallo | Designed with passion and professionalism</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+// Smooth scroll + section fade-in
+const navLinks = document.querySelectorAll("nav a");
+const sections = document.querySelectorAll(".section");
+
+navLinks.forEach(link => {
+  link.addEventListener("click", e => {
+    const href = link.getAttribute("href");
+    if (href && href.startsWith('#')) {
+      e.preventDefault();
+      const targetId = href.substring(1);
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
+// Section fade-in on scroll
+function revealSections() {
+  const trigger = window.innerHeight * 0.85;
+  sections.forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top < trigger) {
+      sec.classList.add("visible");
+    }
+  });
+}
+window.addEventListener("scroll", revealSections);
+window.addEventListener("load", () => {
+  document.getElementById("home").classList.add("visible");
+  revealSections();
+});
+  </script>
+</body>
+</html>
+
+
